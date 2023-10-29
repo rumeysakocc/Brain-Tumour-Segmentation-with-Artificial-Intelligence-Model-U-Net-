@@ -1,4 +1,4 @@
-# What İs The U-Net
+# What İs The U-Net 
 
 <img src="https://www.frontiersin.org/files/Articles/482352/fonc-09-00964-HTML/image_m/fonc-09-00964-g002.jpg" alt="images" align="right" width="500" height="300">
 
@@ -45,11 +45,15 @@ The Dice coefficient is used to evaluate how well the segmentation map matches t
 <br>
 <br>
 
--> Within the scope of the project, the same data set was trained only once with 2 different U-Net methods. For a healthy model, at least 50-100 trainings should be done. What I want to show here is how successful the model is with only 1 training. One of the models was trained on GoogleColab with GPU, while the other was trained on Kaggle. GoogleColab training was performed with only 35 data. However, despite this, the prediction results were remarkable. The model trained on Kaggle used CPU and achieved 97% success in a single training. The success of the models is directly related to the pre-processing stage of the data. The more meaningful and legible our data set is for the model, the more success we will achieve. This is the reason why the data is divided into Flair, t2 and segmentation layers.  The RAM capacity of your computer may not be enough to run these models. In this case, you are likely to get a memory error. In this case, it is recommended that you halve the data set you give to the model. 
+-> Within the project's scope, we trained the same dataset with 2 different U-Net methods only once. To ensure a healthy model, at least 50-100 trainings are recommended.  However, I wish to demonstrate the model's success with just one training.We trained one model on GoogleColab with GPU and the other on Kaggle. GoogleColab's training used only 35 data, yet the prediction results were impressive. The Kaggle-trained model attained 97% success by using a CPU during a single training session. A more understandable and significant dataset will result in higher success rates. The success rate of our models is linked to the data's pre-processing phase.  We divide the data into Flair, t2, and segmentation layers to achieve this.  It's possible that your computer's RAM capacity will be insufficient to run these models. In this instance, you may experience a memory fault. To resolve this issue, it is advised that you reduce the size of the data set you provide to the model by half.
+
 The figure below shows a comparison of the computer prediction and the real-life prediction of the GoogleColab model trained with only 35 data.  
 
 
 ![result](https://github.com/KocHanim/Brain-Tumour-Segmentation-with-Artificial-Intelligence-Model-U-Net-/assets/115664157/3b7c7505-69dd-41d0-a27e-9180d953da8d)
+
+## Can you hear it? The noise of the future
+
 
 # References:
 https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
