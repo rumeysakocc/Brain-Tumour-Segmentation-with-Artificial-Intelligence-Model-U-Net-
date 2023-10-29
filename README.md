@@ -15,3 +15,13 @@ The output of the contraction layers enters four expansion layers consisting of 
 Each of the expansion layers establishes short links with the corresponding outputs of the collapse layers. In this way, lost features can be recovered.
 The output of the last expansion layer enters the last convolution layer. This layer generates a class probability for each pixel using a sigmoid activation function
 
+# Project Details 
+-> Data set used in the project "https://www.kaggle.com/datasets/aryashah2k/brain-tumor-segmentation-brats-2019"
+
+Dice coefficient was used in the project:
+The Dice coefficient is a statistical method that measures how similar two clusters are. The reason for using it with U-Net is to evaluate how well the segmentation map matches the real map.
+
+U-Net is a convolutional neural network model for medical image segmentation. U-Net makes the segmentation map more accurate and sharp by preserving the size of the input image. U-Net uses short connections between the collapse and expansion layers. In this way, it recovers lost features and achieves better learning performance.
+
+The Dice coefficient is used to evaluate how well the segmentation map matches the true map. The Dice coefficient is calculated as the ratio of the intersection of two clusters to their union. The Dice coefficient takes a value between 0 and 1. 0 indicates that the two clusters are not similar at all; 1 indicates that they are completely similar.
+
