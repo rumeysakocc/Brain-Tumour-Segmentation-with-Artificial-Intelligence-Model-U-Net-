@@ -46,3 +46,6 @@ The Dice coefficient is used to evaluate how well the segmentation map matches t
 <br>
 
 -> Within the project, the same data set was trained only once with 2 different U-Net methods. For a healthy model, at least 50-100 trainings should be performed. What I want to show here is how successful the model is with only 1 training. One of the models was trained on GoogleColab while the other was trained on Kaggle. GoogleColab training was performed with only 35 data. But despite this, the prediction results were remarkable. The model trained via Kaggle used CPU and achieved 97% success in a single training. The success of the models is directly related to the preprocessing stage of the data. The more meaningful and legible our data set is for the model, the more success we will get. 
+
+
+![result](https://github.com/KocHanim/Brain-Tumour-Segmentation-with-Artificial-Intelligence-Model-U-Net-/assets/115664157/3b7c7505-69dd-41d0-a27e-9180d953da8d)
