@@ -49,3 +49,20 @@ The Dice coefficient is used to evaluate how well the segmentation map matches t
 
 
 ![result](https://github.com/KocHanim/Brain-Tumour-Segmentation-with-Artificial-Intelligence-Model-U-Net-/assets/115664157/3b7c7505-69dd-41d0-a27e-9180d953da8d)
+
+# References:
+https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
+
+
+https://www.geeksforgeeks.org/u-net-architecture-explained/
+
+
+Todeschini R, Ballabio D, Consonni V, Mauri A, Pavan M: CAIMAN (Classification And Influence Matrix Analysis): A new approach to the classification based on leverage-scaled functions. Chemometrics Intell Lab Syst 2007, 87:3-17.
+
+
+https://radiopaedia.org/articles/dice-similarity-coefficient
+
+
+
+
+
