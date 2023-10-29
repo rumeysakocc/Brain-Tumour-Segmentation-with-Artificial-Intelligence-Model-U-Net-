@@ -54,6 +54,8 @@ The figure below shows a comparison of the computer prediction and the real-life
 
 *Can you hear it? The noise of the future!*
 
+# Author:
+Rumeysa KOÇ
 
 # References:
 https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
