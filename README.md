@@ -52,7 +52,7 @@ The figure below shows a comparison of the computer prediction and the real-life
 
 ![result](https://github.com/KocHanim/Brain-Tumour-Segmentation-with-Artificial-Intelligence-Model-U-Net-/assets/115664157/3b7c7505-69dd-41d0-a27e-9180d953da8d)
 
-*Can you hear it? The noise of the future?*
+*Can you hear it? The noise of the future!*
 
 
 # References:
