@@ -33,7 +33,7 @@ U-Net generally performs well on new data that is different from the training da
 
 
 # Project Details 
--> Data set used in the project "https://www.kaggle.com/datasets/aryashah2k/brain-tumor-segmentation-brats-2019"
+-> Data set used in the project "https://www.med.upenn.edu/cbica/brats2020/#:~:text=BraTS%202020%20utilizes%20multi%2Dinstitutional,)%20brain%20tumors%2C%20namely%20gliomas."
 
 Dice coefficient was used in the project:
 The Dice coefficient is a statistical method that measures how similar two clusters are. The reason for using it with U-Net is to evaluate how well the segmentation map matches the real map.
@@ -45,9 +45,9 @@ The Dice coefficient is used to evaluate how well the segmentation map matches t
 <br>
 <br>
 
--> Within the project's scope, we trained the same dataset with 2 different U-Net methods only once. To ensure a healthy model, at least 50-100 trainings are recommended.  However, I wish to demonstrate the model's success with just one training.We trained one model on GoogleColab with GPU and the other on Kaggle. GoogleColab's training used only 35 data, yet the prediction results were impressive. The Kaggle-trained model attained 97% success by using a CPU during a single training session. A more understandable and significant dataset will result in higher success rates. The success rate of our models is linked to the data's pre-processing phase.  We divide the data into Flair, t2, and segmentation layers to achieve this.  It's possible that your computer's RAM capacity will be insufficient to run these models. In this instance, you may experience a memory fault. To resolve this issue, it is advised that you reduce the size of the data set you provide to the model by half.
+-> Within the project's scope, we trained the same dataset with 2 different U-Net methods only once. To ensure a healthy model, at least 50-100 trainings are recommended.  However, I wish to demonstrate the model's success with just one training.We trained one model on GoogleColab with GPU and the other on Kaggle. GoogleColab's training used only 20 data, yet the prediction results were impressive. The Kaggle-trained model attained 97% success by using a CPU during a single training session. A more understandable and significant dataset will result in higher success rates. The success rate of our models is linked to the data's pre-processing phase.  We divide the data into Flair, t2, and segmentation layers to achieve this.  It's possible that your computer's RAM capacity will be insufficient to run these models. In this instance, you may experience a memory fault. To resolve this issue, it is advised that you reduce the size of the data set you provide to the model by half.
 
-The figure below shows a comparison of the computer prediction and the real-life prediction of the GoogleColab model trained with only 35 data.  
+The figure below shows a comparison of the computer prediction and the real-life prediction of the GoogleColab model trained with only 20 data.  
 
 
 ![result](https://github.com/KocHanim/Brain-Tumour-Segmentation-with-Artificial-Intelligence-Model-U-Net-/assets/115664157/3b7c7505-69dd-41d0-a27e-9180d953da8d)
