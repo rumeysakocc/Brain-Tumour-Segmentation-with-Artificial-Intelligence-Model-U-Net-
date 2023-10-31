@@ -2,7 +2,7 @@
 
 <img src="https://www.frontiersin.org/files/Articles/482352/fonc-09-00964-HTML/image_m/fonc-09-00964-g002.jpg" alt="images" align="right" width="500" height="300">
 
-U-Net is a kind of Convolutional Neural Network (CNN) model designed for medical image segmentation1. U-Net has a symmetric structure that preserves the size of the input image and recovers lost features. 
+U-Net is a kind of Convolutional Neural Network (CNN) model designed for medical image segmentation. U-Net has a symmetric structure that preserves the size of the input image and recovers lost features. 
 The features of U-Net that distinguish it from CNN are as follows:
 
 U-Net does not use padding to preserve information at the edges of the input image.
