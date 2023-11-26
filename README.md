@@ -6,7 +6,7 @@ U-Net is a kind of Convolutional Neural Network (CNN) model designed for medical
 The features of U-Net that distinguish it from CNN are as follows:
 
 U-Net does not use padding to preserve information at the edges of the input image.
-U-Net uses skip connections between the downsampling and upsampling layers. This allows low-level features to be combined with high-level features.
+U-Net uses skip connections between the downsampling and upsampling layers. This allows low-level features to be combined with high-level features. 
 U-Net uses sigmoid activation function instead of softmax in the last layer to produce the segmentation map.
 The working logic of U-Net is as follows:
 
